@@ -1,4 +1,4 @@
-package com.cognixia;
+package assertions;
 
 public class Main {
 	
@@ -19,8 +19,7 @@ public class Main {
 		System.out.println(account.withdraw(100000));
 		System.out.println("Balance: " + account.getBalance());
 	}
-	
-	
 
 
+	
 }
