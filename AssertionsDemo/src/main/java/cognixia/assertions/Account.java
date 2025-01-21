@@ -1,4 +1,4 @@
-package assertions;
+package cognixia.assertions;
 
 public class Account {
 	

@@ -1,10 +1,11 @@
-package assertions;
+package cognixia.assertions;
 
 public class Main {
-	
-	
+
 	public static void main(String[] args) {
-		
+
+		System.out.println("Hello World");
+
 		Account account = new Account(1000);
 		
 		System.out.println("Balance: " + account.getBalance());
@@ -19,7 +20,4 @@ public class Main {
 		System.out.println(account.withdraw(100000));
 		System.out.println("Balance: " + account.getBalance());
 	}
-
-
-	
 }
